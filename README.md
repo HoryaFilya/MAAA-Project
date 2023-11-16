@@ -6,4 +6,8 @@
 4. Создайте виртуальное окружение: python3 -m venv myenv
 5. Активируйте виртуальное окружение: source myenv/bin/activate
 6. Установите зависимости: pip install -r requirements.txt
-7. Запустите приложение: python3 Test.py
+7. Установите свои ключи в файл config.py:
+PHONE = ''
+API_ID = ''
+API_HASH = ''
+8. Запустите приложение: python3 Test.py
